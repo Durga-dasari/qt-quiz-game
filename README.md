@@ -24,7 +24,7 @@ Example structure for `Quiz.json`:
   ]
 }
 
-🧠 Architecture
+## 🧠 Architecture
 C++ Backend:
 Parses JSON data
 
