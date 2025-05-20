@@ -24,3 +24,62 @@ Example structure for `Quiz.json`:
   ]
 }
 
+🧠 Architecture
+C++ Backend:
+Parses JSON data
+
+Manages quiz state using QAbstractListModel
+
+Exposes data to QML via Qmlsignalshandler singleton
+
+QML Frontend:
+Displays questions and options using ListView
+
+Handles user selection and shows result feedback
+
+🔌 Integration
+cpp
+Copy
+Edit
+qmlRegisterType<Qmlsignalshandler>("qmlsignalshandler", 1, 0, "Qmlsignalshandler");
+This allows QML to access and interact with the C++ backend.
+
+📈 Future Improvements
+Add timer and score tracking
+
+Shuffle questions randomly
+
+Add quiz categories and difficulty levels
+
+Store user scores and progress in a file
+
+📄 How to Run
+Clone this repo
+
+Place Quiz.json in the correct file path
+
+Open the project in Qt Creator
+
+Build and run the application
+
+🛠 Tools Used
+Qt 5/6 (C++ & QML)
+
+QAbstractListModel
+
+JSON Parsing
+
+Feel free to fork, modify, and contribute to the project! 🤝
+
+vbnet
+Copy
+Edit
+
+Let me know if you’d like a logo, demo GIF, or badges added to the README as well.
+
+
+
+
+
+
+
