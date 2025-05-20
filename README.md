@@ -23,18 +23,7 @@ Example structure for `Quiz.json`:
     }
   ]
 }
-## 📦 Source Code
 
-The complete source code and QML files for this project are provided in the attached **ZIP file**.
-
-> 🗂️ Please download and extract the ZIP file to access:  
-> - `main.cpp`  
-> - `QuizModel.cpp` and `QuizModel.h`  
-> - `Qmlsignalshandler.cpp` and `Qmlsignalshandler.h`  
-> - QML UI files  
-> - `Quiz.json`  
-
-Open the extracted folder in **Qt Creator** to build and run the project.
 
 
 
