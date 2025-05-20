@@ -23,9 +23,17 @@ Example structure for `Quiz.json`:
     }
   ]
 }
+---
 
-## 🏗 Architecture
-The project separates logic and UI using a model-view architecture.
+## 🏗 Architecture Overview
+🔹 C++ Backend
+QuizModel (QAbstractListModel)
+
+Roles: question, options, answer
+
+Functions: rowCount(), data(), roleNames()
+
+Method: loadFromFile() – Loads JSON
 
 
 
