@@ -24,6 +24,9 @@ Example structure for `Quiz.json`:
   ]
 }
 
+## 🏗 Architecture
+The project separates logic and UI using a model-view architecture.
+
 
 
 
