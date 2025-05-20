@@ -25,20 +25,6 @@ Example structure for `Quiz.json`:
 }
 
 
----
-### 🏗 Architecture Overview
-🔹 C++ Backend
-QuizModel (inherits from QAbstractListModel)
-
-Roles defined: question, options, answer
-
-Implements:
-
-rowCount()
-
-data()
-
-roleNames()
 
 
 
